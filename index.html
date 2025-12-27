@@ -1,17 +1,53 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<title>Guides</title>
-		<style>
-			html,body{height:100%;margin:0}
-			body{display:flex;align-items:center;justify-content:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
-			h1{font-size:6rem;margin:0}
-			@media (max-width:600px){h1{font-size:3rem}}
-		</style>
-	</head>
-	<body>
-		<h1>Guides</h1>
-	</body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>HC Guides</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">HC Guides</div>
+        <div class="lang-toggle" id="lang-toggle-btn">
+            <span class="flag-icon flag-en"></span>
+            <span class="flag-icon flag-hu"></span>
+            <span id="current-lang">EN</span>
+        </div>
+    </header>
+
+    <main class="hero">
+        <h1>Welcome to the Club Guides</h1>
+        <div class="tile-grid">
+            <a href="guides/hack-club.html" class="tile">
+                <i class="fa-solid fa-users"></i>
+                <h2>Hack Club</h2>
+            </a>
+            <a href="guides/slack.html" class="tile">
+                <i class="fa-brands fa-slack"></i>
+                <h2>Slack</h2>
+            </a>
+            <a href="guides/hc-identity.html" class="tile">
+                <i class="fa-solid fa-fingerprint"></i>
+                <h2>HC Identity</h2>
+            </a>
+            <a href="guides/hackatime.html" class="tile">
+                <i class="fa-solid fa-clock"></i>
+                <h2>Hackatime</h2>
+            </a>
+            <a href="guides/github-education.html" class="tile">
+                <i class="fa-brands fa-github"></i>
+                <h2>Github Education</h2>
+            </a>
+            <a href="guides/other-resources.html" class="tile">
+                <i class="fa-solid fa-book-open"></i>
+                <h2 data-i18n="other-resources-title">Other Resources</h2>
+            </a>
+        </div>
+    </main>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
