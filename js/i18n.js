@@ -32,6 +32,11 @@ function setLanguage(lang) {
     if (activeBtn) {
         activeBtn.classList.add('active');
     }
+
+    const langContainer = document.querySelector('.lang-toggle-container');
+    if (langContainer) {
+        langContainer.setAttribute('data-active-lang', lang);
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {

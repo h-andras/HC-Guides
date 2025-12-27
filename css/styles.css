@@ -40,6 +40,22 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.lang-bg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 40px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.lang-toggle-container[data-active-lang="hu"] .lang-bg {
+    transform: translateX(50px);
+}
+
 .lang-option {
     cursor: pointer;
     padding: 5px;
@@ -48,10 +64,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .lang-option.active {
-    box-shadow: 0 0 15px #fff, 0 0 5px #fff inset;
     transform: scale(1.1);
 }
 
@@ -113,47 +130,34 @@ a {
     align-items: center;
     justify-content: center;
     padding: 3rem 1.5rem;
-    border-radius: 8px;
-    color: var(--color-strong);
-    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 20px;
+    color: #ffffff;
     text-align: center;
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     aspect-ratio: 1 / 1;
     font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out, background 0.3s, box-shadow 0.3s;
 }
 
-.tile:nth-child(1) {
-    background-color: #ffffff;
-    color: var(--color-strong);
+.tile.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-.tile:nth-child(2) {
-    background-color: #f9e6e6;
-    color: #5e1b1b;
-}
+.tile:nth-child(1) { transition-delay: 0.1s; }
+.tile:nth-child(2) { transition-delay: 0.2s; }
+.tile:nth-child(3) { transition-delay: 0.3s; }
+.tile:nth-child(4) { transition-delay: 0.4s; }
+.tile:nth-child(5) { transition-delay: 0.5s; }
+.tile:nth-child(6) { transition-delay: 0.6s; }
 
-.tile:nth-child(3) {
-    background-color: var(--color-light);
-    color: #4a1515;
-}
-
-.tile:nth-child(4) {
-    background-color: #eecbcb;
-    color: #360f0f;
-}
-
-.tile:nth-child(5) {
-    background-color: #e6b3b3;
-    color: #220a0a;
-}
-
-.tile:nth-child(6) {
-    background-color: #df9f9f;
-    color: #000000;
-}
-
-.tile:hover {
+.tile.visible:hover {
     transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
