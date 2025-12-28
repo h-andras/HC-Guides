@@ -6,6 +6,10 @@
     <title>Slack - HC Guides</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <script>
+        const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+        document.documentElement.setAttribute('data-initial-lang', savedLang);
+    </script>
 </head>
 <body>
     <header>
@@ -15,10 +19,14 @@
             </div>
             <a href="../" class="logo">HC Guides</a>
         </div>
-        <div class="lang-toggle" id="lang-toggle-btn">
-            <span class="flag-icon">🇺🇸</span>
-            <span class="flag-icon">🇭🇺</span>
-            <span id="current-lang">EN</span>
+        <div class="lang-toggle-container">
+            <div class="lang-bg"></div>
+            <div class="lang-option" id="lang-en" onclick="setLanguage('en')">
+                <span class="flag-icon">🇺🇸</span>
+            </div>
+            <div class="lang-option" id="lang-hu" onclick="setLanguage('hu')">
+                <span class="flag-icon">🇭🇺</span>
+            </div>
         </div>
     </header>
 

@@ -64,6 +64,15 @@ a {
     transform: translateX(50px);
 }
 
+html[data-initial-lang="hu"] .lang-toggle-container:not([data-active-lang]) .lang-bg {
+    transform: translateX(50px);
+}
+
+html[data-initial-lang="hu"] .lang-toggle-container:not([data-active-lang]) #lang-hu,
+html[data-initial-lang="en"] .lang-toggle-container:not([data-active-lang]) #lang-en {
+    transform: scale(1.1);
+}
+
 .lang-option {
     cursor: pointer;
     padding: 5px;
