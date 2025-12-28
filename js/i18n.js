@@ -6,7 +6,7 @@ const translations = {
     },
     hu: {
         "website-title": "Üdvözlünk a Deák Téri Hack Club Guides Oldalán",
-        "other-resources-title": "Egyéb Források",
+        "other-resources-title": "Egyéb Linkek",
         "other-resources-intro": "Itt további linkeket találsz, amelyek segítenek az utadon a Hack Clubbal."
     }
 };
