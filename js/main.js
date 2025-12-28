@@ -34,4 +34,42 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.tile').forEach(tile => {
         observer.observe(tile);
     });
+
+    const scrollArrow = document.getElementById('scroll-arrow');
+    const heroSection = document.querySelector('.hero');
+
+    if (scrollArrow && heroSection) {
+        const scrollToHero = () => {
+            heroSection.scrollIntoView({ behavior: 'smooth' });
+        };
+
+        scrollArrow.addEventListener('click', scrollToHero);
+        
+        scrollArrow.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                scrollToHero();
+            }
+        });
+    }
+});
+
+window.equalizeTileHeights = function() {
+    const tiles = document.querySelectorAll('.tile');
+    if (tiles.length === 0) return;
+
+    tiles.forEach(tile => tile.style.height = 'auto');
+
+    let maxHeight = 0;
+    tiles.forEach(tile => {
+        if (tile.offsetHeight > maxHeight) {
+            maxHeight = tile.offsetHeight;
+        }
+    });
+
+    tiles.forEach(tile => tile.style.height = `${maxHeight}px`);
+};
+
+window.addEventListener('load', window.equalizeTileHeights);
+window.addEventListener('resize', () => {
+    window.equalizeTileHeights();
 });
