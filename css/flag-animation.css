@@ -1,16 +1,12 @@
-
 .orpheus-flag {
     transform-origin: top left;
-    animation: flag-enter 1s ease-out forwards;
+    animation: flag-swing 1.2s ease-in-out forwards;
 }
 
-@keyframes flag-enter {
-    0% {
-        transform: rotate(-90deg);
-        opacity: 0;
-    }
-    100% {
-        transform: rotate(0deg);
-        opacity: 1;
-    }
+@keyframes flag-swing {
+    0% { transform: rotate(-90deg); opacity: 0; }
+    40% { transform: rotate(15deg); opacity: 1; }
+    60% { transform: rotate(-10deg); }
+    80% { transform: rotate(5deg); } 
+    100% { transform: rotate(0deg); } 
 }
