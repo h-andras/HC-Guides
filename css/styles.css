@@ -194,7 +194,7 @@ html[data-initial-lang="en"] .lang-toggle-container:not([data-active-lang]) #lan
 .tile:nth-child(6) { transition-delay: 0.6s; }
 
 .tile.visible:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
@@ -322,35 +322,12 @@ html[data-initial-lang="en"] .lang-toggle-container:not([data-active-lang]) #lan
     }
 }
 
-@property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
-
-@keyframes rotate-border {
-  to {
-    --angle: 360deg;
-  }
-}
-
 .tile::after {
     content: '';
     position: absolute;
     inset: 0;
     border-radius: 20px;
-    padding: 2px;
-    background: conic-gradient(from var(--angle), transparent 50%, white);
-    -webkit-mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
-    mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    animation: rotate-border 3s linear infinite;
-    animation-play-state: paused;
+    border: 2px solid white;
     pointer-events: none;
     z-index: 1;
     opacity: 0;
@@ -359,5 +336,4 @@ html[data-initial-lang="en"] .lang-toggle-container:not([data-active-lang]) #lan
 
 .tile.visible:hover::after {
     opacity: 1;
-    animation-play-state: running;
 }
