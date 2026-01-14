@@ -1,10 +1,31 @@
 function initApp() {
-    const menuToggle = document.getElementById('menu-toggle');
+    
     const sidebar = document.getElementById('sidebar');
+    let menuToggle = document.getElementById('menu-toggle');
+
+    
+    if (sidebar && !menuToggle) {
+        menuToggle = document.createElement('button');
+        menuToggle.id = 'menu-toggle';
+        menuToggle.setAttribute('aria-label', 'Toggle Menu');
+        menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+        document.body.appendChild(menuToggle);
+    }
 
     if (menuToggle && sidebar) {
-        menuToggle.addEventListener('click', () => {
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             sidebar.classList.toggle('open');
+            
+           
+            const icon = menuToggle.querySelector('i');
+            if (icon) {
+                if (sidebar.classList.contains('open')) {
+                    icon.className = 'fa-solid fa-xmark';
+                } else {
+                    icon.className = 'fa-solid fa-bars';
+                }
+            }
         });
     }
 
@@ -53,7 +74,7 @@ function initApp() {
     }
 }
 
-// Global listener for closing sidebar
+
 document.addEventListener('click', (e) => {
     const sidebar = document.getElementById('sidebar');
     const menuToggle = document.getElementById('menu-toggle');
