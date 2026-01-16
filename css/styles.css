@@ -323,19 +323,3 @@ html[data-initial-lang="en"] .lang-toggle-container:not([data-active-lang]) #lan
         grid-template-columns: 1fr;
     }
 }
-
-.tile::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 20px;
-    border: 2px solid white;
-    pointer-events: none;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.tile.visible:hover::after {
-    opacity: 1;
-}

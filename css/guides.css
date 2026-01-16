@@ -113,6 +113,11 @@ body {
     gap: 0;
 }
 
+.sidebar li {
+    margin: 0;
+    padding: 0;
+}
+
 
 .sidebar a:not(.sidebar-brand) {
     display: flex;
@@ -175,9 +180,9 @@ body {
 .content h1::after {
     content: '';
     display: block;
-    width: 60px;
+    width: 50%;
     height: 4px;
-    background: linear-gradient(90deg, var(--accent-color), transparent);
+    background: linear-gradient(90deg, #ffffff, transparent);
     margin-top: 0.5rem;
     border-radius: 2px;
 }
