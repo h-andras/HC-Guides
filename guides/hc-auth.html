@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/guides.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         const savedLang = localStorage.getItem('preferredLanguage') || 'en';
         document.documentElement.setAttribute('data-initial-lang', savedLang);
@@ -42,13 +43,30 @@
                 <li><a href="/other-resources">Other Resources</a></li>
             </ul>
         </nav>
-        <main class="content">
-            <h1>HC Auth</h1>
-            <p>Understand the values and identity of our Hack Club.</p>
+        <main class="content" id="markdown-content">
+            <p>Loading guide...</p>
         </main>
     </div>
 
     <script src="/js/i18n.js"></script>
     <script src="/js/main.js"></script>
+    <script>
+        
+        fetch('/assets/guides_md/hc-auth.md')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(markdown => {
+                const content = document.getElementById('markdown-content');
+                content.innerHTML = marked.parse(markdown);
+            })
+            .catch(error => {
+                console.error('Error loading markdown:', error);
+                document.getElementById('markdown-content').innerHTML = '<p>Error loading guide content: ' + error.message + '</p>';
+            });
+    </script>
 </body>
 </html>
