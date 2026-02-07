@@ -15,15 +15,15 @@ function initApp() {
     if (menuToggle && sidebar) {
         menuToggle.addEventListener('click', (e) => {
             e.stopPropagation();
-            sidebar.classList.toggle('open');
-            
-           
+            sidebar.classList.toggle('open');            
             const icon = menuToggle.querySelector('i');
             if (icon) {
                 if (sidebar.classList.contains('open')) {
                     icon.className = 'fa-solid fa-xmark';
+                    menuToggle.classList.add('open');
                 } else {
                     icon.className = 'fa-solid fa-bars';
+                    menuToggle.classList.remove('open');
                 }
             }
         });

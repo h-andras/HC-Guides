@@ -199,12 +199,11 @@ body {
     cursor: pointer;
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    transition: transform 0.2s, background 0.2s;
+    transition: transform var(--transition-speed), background var(--transition-speed);
 }
 
 #menu-toggle:hover {
     background: rgba(40, 40, 45, 1);
-    transform: scale(1.05);
 }
 
 #menu-toggle i {
@@ -216,6 +215,10 @@ body {
 @media (max-width: 768px) {
     #menu-toggle {
         display: block;
+        transform: translateX(0);
+    }
+    #menu-toggle.open {
+        transform: translateX(var(--sidebar-width));
     }
 
     .sidebar {
