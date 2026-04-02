@@ -1,10 +1,10 @@
-## GitHub Education Igénylése
+# GitHub Education Igénylése
 
-> FONTOS: Olyan eszközt használj, amivel tudsz fotókat készíteni.
+> **FONTOS**: Olyan eszközt használj, amivel tudsz fotókat készíteni.
 
 Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Packet.
 
-### 1. Jelentkezz be a GitHubra
+## 1. Jelentkezz be a GitHubra GitHubra
 
 1. Nyisd meg a https://github.com oldalt.
 2. Jelentkezz be a GitHub fiókodba, vagy regisztrálj, ha még nincs.
@@ -12,7 +12,7 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 ![Kattints a profilképedre](/assets/guides_md/education/pfp-pic-click.png)
 
-### 2. Beállítások és számlázás megnyitása
+## 2. Beállítások és számlázás megnyitása
 
 1. A lenyíló menüben kattints a **Settings** menüpontra.
 
@@ -22,7 +22,7 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 ![Számlázás rész](/assets/guides_md/education/billing-click.png)
 
-### 3. Fizetési adatok hozzáadása
+## 3. Fizetési adatok hozzáadása
 
 1. Válaszd a **Payment information** menüpontot.
 2. Töltsd ki a mezőket valós adatokkal.
@@ -33,7 +33,7 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 ![Nyilvános név ellenőrzése](/assets/guides_md/education/public-name.png)
 
-### 4. GitHub Education igénylésének indítása
+## 4. GitHub Education igénylésének indítása
 
 1. Kattints meg az **Education benefits** menüpontra.
 
@@ -43,7 +43,7 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 ![Jelentkezés indítása gomb](/assets/guides_md/education/start-application.png)
 
-### 5. Adatok kitöltése
+## 5. Adatok kitöltése
 
 1. A felugró ablakban válaszd a **Student** lehetőséget.
 2. A **School** mezőbe írd be, hogy **"Hack Club"**.
@@ -55,7 +55,7 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 Ezután kattints a **Share location** gombra, majd a **Continue** gombra.
 
-### 6. Igazolás típusának kiválasztása
+## 6. Igazolás típusának kiválasztása
 
 1. A következő oldalon kattints a **Select** gombra.
 
@@ -69,7 +69,7 @@ Ezután kattints a **Share location** gombra, majd a **Continue** gombra.
 
 3. Készítsd el a fényképet / képernyőképet, majd erősítsd meg a feltöltést.
 
-### 7. Jelentkezés elküldése
+## 7. Jelentkezés elküldése
 
 Végül kattints a **Submit application** gombra.
 

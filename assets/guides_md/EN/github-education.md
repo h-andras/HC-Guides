@@ -1,10 +1,10 @@
-## Get GitHub Student Benefits
+# Get GitHub Student Benefits
 
 > IMPORTANT: Do this on a device that can take photos.
 
 Follow these steps to apply for the GitHub Student Developer Pack.
 
-### 1. Sign in to GitHub
+## 1. Sign in to GitHub
 
 1. Go to https://github.com.
 2. Sign into your GitHub account, or sign up if you don't have one yet.
@@ -12,7 +12,7 @@ Follow these steps to apply for the GitHub Student Developer Pack.
 
 ![Click your profile picture](/assets/guides_md/education/pfp-pic-click.png)
 
-### 2. Open Settings and Billing
+## 2. Open Settings and Billing
 
 1. In the dropdown, click on **Settings**.
 
@@ -22,7 +22,7 @@ Follow these steps to apply for the GitHub Student Developer Pack.
 
 ![Go to Billing and licensing](/assets/guides_md/education/billing-click.png)
 
-### 3. Add Payment Information
+## 3. Add Payment Information
 
 1. Select **Payment information**.
 2. Fill it out with real information.
@@ -33,7 +33,7 @@ Follow these steps to apply for the GitHub Student Developer Pack.
 
 ![Check your public name](/assets/guides_md/education/public-name.png)
 
-### 4. Start the Education Application
+## 4. Start the Education Application
 
 1. Go to **Education benefits**.
 
@@ -43,7 +43,7 @@ Follow these steps to apply for the GitHub Student Developer Pack.
 
 ![Start an application](/assets/guides_md/education/start-application.png)
 
-### 5. Fill in Student Details
+## 5. Fill in Student Details
 
 1. In the popup window, select **Student**.
 2. For **School**, write **Hack Club**.
@@ -55,7 +55,7 @@ Follow these steps to apply for the GitHub Student Developer Pack.
 
 Then click **Share location**, and proceed by clicking **Continue**.
 
-### 6. Choose Proof Type
+## 6. Choose Proof Type
 
 1. On the next page, click **Select** under proof of enrollment.
 
@@ -69,7 +69,7 @@ Then click **Share location**, and proceed by clicking **Continue**.
 
 3. Take the picture and confirm the upload.
 
-### 7. Submit Your Application
+## 7. Submit Your Application
 
 Finally, click the **Submit application** button.
 

@@ -1,6 +1,6 @@
 # Hackatime Beállítási Útmutató
 
-> **Fontos:** Először a **HC Auth** tutorialt csináld végig!
+> **FONTOS:** Először a **HC Auth** tutorialt csináld végig!
 
 ## 1. lépés: Bejelentkezés
 
