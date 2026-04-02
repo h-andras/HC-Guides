@@ -12,6 +12,7 @@
         const savedLang = localStorage.getItem('preferredLanguage') || 'hu';
         document.documentElement.setAttribute('data-initial-lang', savedLang);
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div class="lang-toggle-container">
@@ -39,8 +40,9 @@
             </ul>
         </nav>
         <main class="content">
-            <h1 data-i18n="other-resources-title">Other Resources</h1>
-            <p data-i18n="other-resources-intro">Continously updated with new resources.</p>
+            <div id="markdown-content" class="markdown-body">
+                <!-- Markdown content will be rendered here -->
+            </div>
         </main>
     </div>
 

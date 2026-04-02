@@ -47,8 +47,8 @@ function setLanguage(lang) {
     if (window.equalizeTileHeights) {
         setTimeout(window.equalizeTileHeights, 0);
     }
+    document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang } }));
 }
-
 document.addEventListener('DOMContentLoaded', () => {
     const savedLang = localStorage.getItem('preferredLanguage') || 'hu';
     setLanguage(savedLang);

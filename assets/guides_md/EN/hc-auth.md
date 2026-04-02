@@ -5,7 +5,7 @@
 1. Go to [auth.hackclub.com](https://auth.hackclub.com)
 2. Enter your email address in the textbox
 
-![Email entry page](<../auth/onboard.png>)
+![Email entry page](/assets/guides_md/auth/onboard.png)
 
 > **Note:** Use an email you can access, as you'll receive an authentication code via email.
 
@@ -13,7 +13,7 @@
 
 1. Fill in your personal information **accurately** and press **Continue**
 
-![Personal details form](<../auth/personal-details.png>)
+![Personal details form](/assets/guides_md/auth/personal-details.png)
 
 > **Important:** Use your real information, as it will be needed for ID verification.
 
@@ -22,14 +22,14 @@
 1. Check your email for the verification code from Hack Club
 2. Paste the code into the textbox on the website and press **Verify**
 
-![Verification code entry](<../auth/verif-code.png>)
+![Verification code entry](/assets/guides_md/auth/verif-code.png)
 
 ## Step 4: Join Slack
 
 1. You'll be redirected to the Hack Club Slack page
 2. Click **I Agree** to accept the terms
 
-![Slack terms and conditions](<../auth/slack-terms.png>)
+![Slack terms and conditions](/assets/guides_md/auth/slack-terms.png)
 
 Congratulations! You now have both a Hack Club Auth account and a Slack profile.
 
@@ -38,11 +38,11 @@ Congratulations! You now have both a Hack Club Auth account and a Slack profile.
 1. You'll receive a DM from Ralsei in Slack
 2. Read the message and click the green **okay!** button
 
-![First welcome message](<../auth/hc-terms1.png>)
+![First welcome message](/assets/guides_md/auth/hc-terms1.png)
 
 3. Click **hack yeah!** to continue
 
-![Second welcome message](<../auth/hc-terms2.png>)
+![Second welcome message](/assets/guides_md/auth/hc-terms2.png)
 
 4. You'll be prompted to reload the page
 
@@ -54,7 +54,7 @@ Congratulations! You now have both a Hack Club Auth account and a Slack profile.
 2. You'll see three steps at the top of the page that need to be completed
 3. Complete all three steps to verify your profile
 
-![Account completion steps](../auth/acc-complete.png)
+![Account completion steps](/assets/guides_md/auth/acc-complete.png)
 
 > **Important:** Use your own, real information for verification. This is required to participate in YSWSs.
 

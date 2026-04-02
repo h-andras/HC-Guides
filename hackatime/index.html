@@ -12,6 +12,7 @@
         const savedLang = localStorage.getItem('preferredLanguage') || 'hu';
         document.documentElement.setAttribute('data-initial-lang', savedLang);
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div class="lang-toggle-container">
@@ -39,121 +40,8 @@
             </ul>
         </nav>
         <main class="content">
-            <div class="lang-en">
-                <h1>Hackatime Setup Guide</h1>
-
-                <h2>Step 1: Sign In</h2>
-                <ol>
-                    <li>Go to <a href="https://hackatime.hackclub.com">hackatime.hackclub.com</a></li>
-                    <li>Click the <strong>Sign in with your Hack Club account</strong> button</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/onboard.png" alt="Sign in page"></p>
-                <ol start="3">
-                    <li>Click <strong>Authorize</strong> to grant permissions</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/authorize.png" alt="Authorization page"></p>
-
-                <h2>Step 2: Terminal Setup</h2>
-                <ol>
-                    <li>Copy the command displayed on your webpage</li>
-                    <li>Paste it into your terminal and run it</li>
-                    <li>Go back to the Hackatime webpage</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/command.png" alt="Terminal command"></p>
-
-                <h2>Step 3: Editor Selection</h2>
-                <ol>
-                    <li>Once the website lets you proceed, go to the second setup step</li>
-                    <li>Select your editor (this tutorial uses VS Code as an example)</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/editor.png" alt="Editor selection"></p>
-
-                <h2>Step 4: Installing the WakaTime Extension</h2>
-                <p>Download the WakaTime extension for your selected editor</p>
-                <p><img src="/assets/guides_md/hackatime/extension.png" alt="Extension download prompt"></p>
-                <ol>
-                    <li>Open your editor (VS Code in this example)</li>
-                    <li>Find and click the <strong>Extensions</strong> icon in the sidebar</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/sidebar.png" alt="Extensions sidebar"></p>
-                <ol start="3">
-                    <li>Search for "wakatime" in the search bar</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/search.png" alt="Search for WakaTime"></p>
-                <ol start="4">
-                    <li>Click on the first result and click <strong>Install</strong></li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/wakatime.png" alt="WakaTime extension"></p>
-                <ol start="5">
-                    <li>Start coding! After a few minutes, you should see a timer appear on the bottom toolbar</li>
-                </ol>
-
-                <h2>Step 5: Complete Setup</h2>
-                <ol>
-                    <li>Go back to the Hackatime website and proceed to the next step</li>
-                    <li>Check the <strong>I agree I understand the rules</strong> box</li>
-                    <li>Click the <strong>Done</strong> button</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/terms.png" alt="Terms and conditions"></p>
-                <p><strong>Congratulations!</strong> You've successfully set up Hackatime and can now start tracking your coding time.</p>
-            </div>
-            <div class="lang-hu">
-                <h1>Hackatime Beállítási Útmutató</h1>
-
-                <h2>1. lépés: Bejelentkezés</h2>
-                <ol>
-                    <li>Látogass el a <a href="https://hackatime.hackclub.com">hackatime.hackclub.com</a> oldalra</li>
-                    <li>Kattints a <strong>Sign in with your Hack Club account</strong> gombra</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/onboard.png" alt="Bejelentkezési oldal"></p>
-                <ol start="3">
-                    <li>Kattints az <strong>Authorize</strong> gombra a jogosultságok megadásához</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/authorize.png" alt="Engedélyezési oldal"></p>
-
-                <h2>2. lépés: Terminál Beállítás</h2>
-                <ol>
-                    <li>Másold ki a weboldalon megjelenő parancsot</li>
-                    <li>Illeszd be a terminálba és futtasd le</li>
-                    <li>Térj vissza a Hackatime weboldalra</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/command.png" alt="Terminál parancs"></p>
-
-                <h2>3. lépés: Szerkesztő Kiválasztása</h2>
-                <ol>
-                    <li>Miután a weboldal engedélyezi a továbblépést, menj a második beállítási lépéshez</li>
-                    <li>Válaszd ki a szerkesztődet (ez az útmutató VS Code-ot használ példaként)</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/editor.png" alt="Szerkesztő kiválasztása"></p>
-
-                <h2>4. lépés: WakaTime Bővítmény Telepítése</h2>
-                <p>Töltsd le a WakaTime bővítményt a kiválasztott szerkesztődhöz</p>
-                <p><img src="/assets/guides_md/hackatime/extension.png" alt="Bővítmény letöltési figyelmeztetés"></p>
-                <ol>
-                    <li>Nyisd meg a szerkesztődet (ebben a példában VS Code)</li>
-                    <li>Keresd meg és kattints a <strong>Bővítmények</strong> ikonra az oldalsávban</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/sidebar.png" alt="Bővítmények oldalsáv"></p>
-                <ol start="3">
-                    <li>Keress rá a "wakatime" kifejezésre a keresősávban</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/search.png" alt="WakaTime keresése"></p>
-                <ol start="4">
-                    <li>Kattints az első találatra és kattints a <strong>Install</strong> gombra</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/wakatime.png" alt="WakaTime bővítmény"></p>
-                <ol start="5">
-                    <li>Kezdj el kódolni! Néhány perc elteltével egy időzítőt kell látnod megjelenni az alsó eszköztáron</li>
-                </ol>
-
-                <h2>5. lépés: Beállítás Befejezése</h2>
-                <ol>
-                    <li>Térj vissza a Hackatime weboldalra és lépj tovább a következő lépésre</li>
-                    <li>Jelöld be a <strong>Megértettem és elfogadom a szabályokat</strong> jelölőnégyzetet</li>
-                    <li>Kattints a <strong>Done</strong> gombra</li>
-                </ol>
-                <p><img src="/assets/guides_md/hackatime/terms.png" alt="Feltételek és szabályok"></p>
-                <p><strong>Gratulálunk!</strong> Sikeresen beállítottad a Hackatime-ot és most már követheted a kódolási idődet.</p>
+            <div id="markdown-content" class="markdown-body">
+                <!-- Markdown content will be rendered here -->
             </div>
         </main>
     </div>

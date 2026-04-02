@@ -218,3 +218,35 @@ window.addEventListener('load', window.equalizeTileHeights);
 window.addEventListener('resize', () => {
     window.equalizeTileHeights();
 });
+
+document.addEventListener('languageChanged', async (e) => {
+    const contentDiv = document.getElementById('markdown-content');
+    if (!contentDiv) return;
+
+    const lang = e.detail.lang.toUpperCase();
+    
+    let path = window.location.pathname;
+    if (path.endsWith('index.html')) {
+        path = path.slice(0, -10);
+    }
+    const pathParts = path.split('/').filter(Boolean);
+    const pageName = pathParts[pathParts.length - 1];
+
+    if (!pageName) return;
+
+    const mdFile = `/assets/guides_md/${lang}/${pageName}.md`;
+    
+    try {
+        const response = await fetch(mdFile);
+        if (response.ok) {
+            const mdText = await response.text();
+            contentDiv.innerHTML = marked.parse(mdText);
+        } else {
+            console.error('Failed to load markdown file:', response.statusText);
+            contentDiv.innerHTML = '<p>Error loading content.</p>';
+        }
+    } catch (error) {
+        console.error('Error fetching markdown:', error);
+        contentDiv.innerHTML = '<p>Error loading content.</p>';
+    }
+});

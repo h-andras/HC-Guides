@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/guides.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         const savedLang = localStorage.getItem('preferredLanguage') || 'hu';
         document.documentElement.setAttribute('data-initial-lang', savedLang);
@@ -39,131 +40,8 @@
             </ul>
         </nav>
         <main class="content">
-            <div class="lang-en">
-                <h1>Hack Club Auth Setup Guide</h1>
-
-                <h2>Step 1: Create Your Account</h2>
-                <ol>
-                    <li>Go to <a href="https://auth.hackclub.com">auth.hackclub.com</a></li>
-                    <li>Enter your email address in the textbox</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/onboard.png" alt="Email entry page"></p>
-                <blockquote>
-                    <p><strong>Note:</strong> Use an email you can access, as you'll receive an authentication code via email.</p>
-                </blockquote>
-
-                <h2>Step 2: Personal Information</h2>
-                <ol>
-                    <li>Fill in your personal information <strong>accurately</strong> and press <strong>Continue</strong></li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/personal-details.png" alt="Personal details form"></p>
-                <blockquote>
-                    <p><strong>IMPORTANT:</strong> Use your real information, as it will be needed for ID verification.</p>
-                </blockquote>
-
-                <h2>Step 3: Email Verification</h2>
-                <ol>
-                    <li>Check your email for the verification code from Hack Club</li>
-                    <li>Paste the code into the textbox on the website and press <strong>Verify</strong></li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/verif-code.png" alt="Verification code entry"></p>
-
-                <h2>Step 4: Join Slack</h2>
-                <ol>
-                    <li>You'll be redirected to the Hack Club Slack page</li>
-                    <li>Click <strong>I Agree</strong> to accept the terms</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/slack-terms.png" alt="Slack terms and conditions"></p>
-                <p>Congratulations! You now have both a Hack Club Auth account and a Slack profile.</p>
-
-                <h2>Step 5: Welcome Messages</h2>
-                <ol>
-                    <li>You'll receive a DM from Ralsei in Slack</li>
-                    <li>Read the message and click the green <strong>okay!</strong> button</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/hc-terms1.png" alt="First welcome message"></p>
-                <ol start="3">
-                    <li>Click <strong>hack yeah!</strong> to continue</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/hc-terms2.png" alt="Second welcome message"></p>
-                <ol start="4">
-                    <li>You'll be prompted to reload the page</li>
-                </ol>
-                <p><strong>Welcome to the community!</strong> You're now officially a member of Hack Club.</p>
-
-                <h2>Step 6: Complete Your Profile</h2>
-                <ol>
-                    <li>Go back to <a href="https://auth.hackclub.com">auth.hackclub.com</a></li>
-                    <li>You'll see three steps at the top of the page that need to be completed</li>
-                    <li>Complete all three steps to verify your profile</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/acc-complete.png" alt="Account completion steps"></p>
-                <blockquote>
-                    <p><strong>IMPORTANT:</strong> Use your own, real information for verification. This is required to participate in YSWSs.</p>
-                </blockquote>
-            </div>
-            <div class="lang-hu">
-                <h1>Hack Club Auth Beállítási Útmutató</h1>
-
-                <h2>1. lépés: Fiók Létrehozása</h2>
-                <ol>
-                    <li>Látogass el az <a href="https://auth.hackclub.com">auth.hackclub.com</a> oldalra</li>
-                    <li>Írd be az email címedet a beviteli mezőbe</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/onboard.png" alt="Email cím megadása"></p>
-                <blockquote>
-                    <p><strong>Megjegyzés:</strong> Olyan email címet használj, amelyhez hozzáférsz, mivel emailben fogsz kapni egy hitelesítési kódot.</p>
-                </blockquote>
-
-                <h2>2. lépés: Személyes Adatok</h2>
-                <ol>
-                    <li>Töltsd ki a személyes adataidat <strong>pontosan</strong> és nyomj a <strong>Continue</strong> gombra</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/personal-details.png" alt="Személyes adatok űrlap"></p>
-                <blockquote>
-                    <p><strong>FONTOS:</strong> Használd a valódi adataidat, mivel ezekre szükség lesz az azonosításhoz.</p>
-                </blockquote>
-
-                <h2>3. lépés: Email Hitelesítés</h2>
-                <ol>
-                    <li>Nézd meg az emailjeidet a Hack Club által küldött hitelesítési kódért</li>
-                    <li>Illeszd be a kódot a weboldal beviteli mezőjébe és nyomj a <strong>Verify</strong> gombra</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/verif-code.png" alt="Hitelesítési kód megadása"></p>
-
-                <h2>4. lépés: Csatlakozás a Slackhez</h2>
-                <ol>
-                    <li>Át leszel irányítva a Hack Club Slack oldalára</li>
-                    <li>Kattints az <strong>I Agree</strong> gombra a feltételek elfogadásához</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/slack-terms.png" alt="Slack feltételek és szabályok"></p>
-                <p>Gratulálunk! Most már van Hack Club Auth fiókod és Slack profilod is.</p>
-
-                <h2>5. lépés: Üdvözlő Üzenetek</h2>
-                <ol>
-                    <li>Kapsz egy közvetlen üzenetet Ralsei-től a Slacken</li>
-                    <li>Olvasd el az üzenetet és kattints a zöld <strong>okay!</strong> gombra</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/hc-terms1.png" alt="Első üdvözlő üzenet"></p>
-                <ol start="3">
-                    <li>Kattints a <strong>hack yeah!</strong> gombra a folytatáshoz</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/hc-terms2.png" alt="Második üdvözlő üzenet"></p>
-                <ol start="4">
-                    <li>Fel leszel szólítva az oldal újratöltésére</li>
-                </ol>
-                <p><strong>Üdvözlünk a közösségben!</strong> Most már hivatalosan is tagja vagy a Hack Clubnak.</p>
-
-                <h2>6. lépés: Profil Befejezése</h2>
-                <ol>
-                    <li>Menj vissza az <a href="https://auth.hackclub.com">auth.hackclub.com</a> oldalra</li>
-                    <li>Látnod kell három lépést az oldal tetején, amelyeket be kell fejezned</li>
-                    <li>Fejezd be mindhárom lépést a profilod hitelesítéséhez</li>
-                </ol>
-                <p><img src="/assets/guides_md/auth/acc-complete.png" alt="Fiók befejezési lépések"></p>
-                <blockquote>
-                    <p><strong>FONTOS:</strong> Használd a saját, valódi adataidat a hitelesítéshez. Erre szükség van a YSWS-eken való részvételhez.</p>
-                </blockquote>
+            <div id="markdown-content" class="markdown-body">
+                <!-- Markdown content will be rendered here -->
             </div>
         </main>
     </div>

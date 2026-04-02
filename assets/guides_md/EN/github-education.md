@@ -10,38 +10,38 @@ Follow these steps to apply for the GitHub Student Developer Pack.
 2. Sign into your GitHub account, or sign up if you don't have one yet.
 3. When logged in, click on your profile picture in the top right corner.
 
-![Click your profile picture](../education/pfp-pic-click.png)
+![Click your profile picture](/assets/guides_md/education/pfp-pic-click.png)
 
 ### 2. Open Settings and Billing
 
 1. In the dropdown, click on **Settings**.
 
-![Open Settings](../education/settings-click.png)
+![Open Settings](/assets/guides_md/education/settings-click.png)
 
 2. In the left sidebar, click on **Billing and licensing**.
 
-![Go to Billing and licensing](../education/billing-click.png)
+![Go to Billing and licensing](/assets/guides_md/education/billing-click.png)
 
 ### 3. Add Payment Information
 
 1. Select **Payment information**.
 2. Fill it out with real information.
 
-![Fill out payment information](../education/payment-info-fillout.png)
+![Fill out payment information](/assets/guides_md/education/payment-info-fillout.png)
 
 3. Make sure the **Name** you put here is the same as your **publicly displayed name**.
 
-![Check your public name](../education/public-name.png)
+![Check your public name](/assets/guides_md/education/public-name.png)
 
 ### 4. Start the Education Application
 
 1. Go to **Education benefits**.
 
-![Start an application](../education/edu-click.png)
+![Start an application](/assets/guides_md/education/edu-click.png)
 
 2. Click **Start an application**.
 
-![Start an application](../education/start-application.png)
+![Start an application](/assets/guides_md/education/start-application.png)
 
 ### 5. Fill in Student Details
 
@@ -51,7 +51,7 @@ Follow these steps to apply for the GitHub Student Developer Pack.
 	- By default, this is the email you created your GitHub account with.
 	- You can add a secondary email if needed.
 
-![Student application popup](../education/first-popup.png)
+![Student application popup](/assets/guides_md/education/first-popup.png)
 
 Then click **Share location**, and proceed by clicking **Continue**.
 
@@ -59,11 +59,11 @@ Then click **Share location**, and proceed by clicking **Continue**.
 
 1. On the next page, click **Select** under proof of enrollment.
 
-![Click Select](../education/select-proof-type.png)
+![Click Select](/assets/guides_md/education/select-proof-type.png)
 
 2. In the dropdown menu, choose the type of proof you want to use.
 
-![Choose proof type](../education/proof-type-dropdown.png)
+![Choose proof type](/assets/guides_md/education/proof-type-dropdown.png)
 
 > Tip: A school ID is best. However, a picture of the Hack Club Slack also worked for me (after choosing **Other** in the dropdown).
 
@@ -73,6 +73,6 @@ Then click **Share location**, and proceed by clicking **Continue**.
 
 Finally, click the **Submit application** button.
 
-![Submit application](../education/submit-application.png)
+![Submit application](/assets/guides_md/education/submit-application.png)
 
 You’re done! Now just wait for GitHub to review and approve your Student Developer Pack.
