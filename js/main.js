@@ -156,7 +156,7 @@ async function handleRoute(path) {
         
         initApp();
         if (typeof setLanguage === 'function') {
-            setLanguage(localStorage.getItem('preferredLanguage') || 'en');
+            setLanguage(localStorage.getItem('preferredLanguage') || 'hu');
         }
         window.scrollTo(0, 0);
 
