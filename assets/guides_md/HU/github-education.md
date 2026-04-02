@@ -2,11 +2,9 @@
 
 > **FONTOS**: Olyan eszközt használj, amivel tudsz fotókat készíteni.
 
-Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Packet.
-
 ## 1. Jelentkezz be a GitHubra GitHubra
 
-1. Nyisd meg a https://github.com oldalt.
+1. Nyisd meg a [github.com](https://github.com) oldalt.
 2. Jelentkezz be a GitHub fiókodba, vagy regisztrálj, ha még nincs.
 3. Bejelentkezés után kattints a profilképedre a jobb felső sarokban.
 

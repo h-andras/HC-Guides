@@ -1,3 +1,3 @@
-# Egyéb Források
+# Egyéb Linkek
 
-> Ez a fájl üres az eredeti verziójában. Kérlek, add hozzá a tartalmat később.
+> A linkek érkeznek majd.

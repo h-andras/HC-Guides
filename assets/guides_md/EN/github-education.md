@@ -2,11 +2,9 @@
 
 > IMPORTANT: Do this on a device that can take photos.
 
-Follow these steps to apply for the GitHub Student Developer Pack.
-
 ## 1. Sign in to GitHub
 
-1. Go to https://github.com.
+1. Go to [github.com](https://github.com).
 2. Sign into your GitHub account, or sign up if you don't have one yet.
 3. When logged in, click on your profile picture in the top right corner.
 
