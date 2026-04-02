@@ -18,7 +18,7 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 ![Beállítások megnyitása](../education/settings-click.png)
 
-2. A bal oldali sávban kattints a **Billing and licensing** részre.
+2. A bal oldali sávban kattints a **Billing and licensing** menüpontra.
 
 ![Számlázás rész](../education/billing-click.png)
 
@@ -33,9 +33,9 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 ![Nyilvános név ellenőrzése](../education/public-name.png)
 
-### 4. Oktatási kedvezmény igénylésének indítása
+### 4. GitHub Education igénylésének indítása
 
-1. Nyisd meg az **Education benefits** részt.
+1. Kattints meg az **Education benefits** menüpontra.
 
 ![Jelentkezés indítása](../education/edu-click.png)
 
@@ -43,11 +43,11 @@ Az alábbi lépéseken végighaladva igényelheted a GitHub Student Developer Pa
 
 ![Jelentkezés indítása gomb](../education/start-application.png)
 
-### 5. Diákadatok kitöltése
+### 5. Adatok kitöltése
 
 1. A felugró ablakban válaszd a **Student** lehetőséget.
-2. A **School** mezőbe írd be, hogy **Hack Club**.
-3. Győződj meg róla, hogy az email cím megegyezik a **HC auth** fiókodhoz tartozó email címmel.
+2. A **School** mezőbe írd be, hogy **"Hack Club"**.
+3. Győződj meg róla, hogy az email cím megegyezik a **HC Auth** fiókodhoz tartozó email címmel.
 	- Alapértelmezetten ez az az email, amivel a GitHub fiókodat létrehoztad.
 	- Szükség esetén hozzáadhatsz másodlagos email címet is.
 
@@ -57,7 +57,7 @@ Ezután kattints a **Share location** gombra, majd a **Continue** gombra.
 
 ### 6. Igazolás típusának kiválasztása
 
-1. A következő oldalon kattints a **Select** gombra a hallgatói jogviszony igazolása alatt.
+1. A következő oldalon kattints a **Select** gombra.
 
 ![Select gomb](../education/select-proof-type.png)
 
@@ -65,7 +65,7 @@ Ezután kattints a **Share location** gombra, majd a **Continue** gombra.
 
 ![Igazolás típusának kiválasztása](../education/proof-type-dropdown.png)
 
-> Tipp: A diákigazolvány a legjobb választás. Nekem az is működött, hogy a Hack Club Slackről készítettem képernyőképet (ehhez a listában az **Other** lehetőséget választottam).
+> Tipp: A diákigazolvánnyal a legvalószínűbb, hogy jóváhagynak. De nekem az is működött, hogy a Hack Club Slackről készítettem képernyőképet (ehhez a listában az **Other** lehetőséget választottam).
 
 3. Készítsd el a fényképet / képernyőképet, majd erősítsd meg a feltöltést.
 
@@ -75,4 +75,4 @@ Végül kattints a **Submit application** gombra.
 
 ![Jelentkezés elküldése](../education/submit-application.png)
 
-Készen vagy! Most már csak meg kell várnod, hogy a GitHub elbírálja és jóváhagyja a Student Developer Pack jelentkezésed.
+Készen vagy! Most már csak meg kell várnod, hogy a GitHub elbírálja és jóváhagyja a jelentkezésed.

@@ -2,18 +2,18 @@ const translations = {
     en: {
         "website-title": "Welcome To The Deak Teri HC Guides",
         "other-resources-title": "Other Resources",
-        "other-resources-intro": "Continously updated with new resources.",
+        "other-resources-intro": "High-quality tools to maximize your development productivity.",
         "hc-auth-intro": "Every member needs a HC Auth account. Here you can learn the registration process and how to customize your profile.",
         "hackatime-intro": "Hackatime is the basis of almost every YSWS. In this section, you will find everything you need to know about using the extension.",
-        "github-education-intro": "GitHub Education is a fantastic resource pack for young developers. Here you can learn how to claim free access as a Hack Club member."
+        "github-education-intro": "GitHub Education is a resource pack for young developers. Here you can learn how to claim free access as a Hack Club member."
     },
     hu: {
         "website-title": "Üdvözlünk a Deák Téri Hack Club Útmutató Oldalán",
         "other-resources-title": "Egyéb Linkek",
-        "other-resources-intro": "Folyamatosan frissül új erőforrásokkal.",
-        "hc-auth-intro": "Minden tagnak szükséges egy HC Auth fiók. Itt megtanulhatod a regisztráció menetét és a profil testreszabását.",
+        "other-resources-intro": "Kiváló eszközök, amelyek maximalizálják a fejlesztői produktivitásod.",
+        "hc-auth-intro": "Minden tagnak szöksége va egy HC Auth fiókra. Itt megtanulhatod a regisztráció menetét és a profil testreszabását.",
         "hackatime-intro": "A Hackatime majdnem minden YSWS alapja. Ebben a részben megtalálsz minden szükséges tudnivalót az extension használatához.",
-        "github-education-intro": "A GitHub Education egy fantasztikus erőforráscsomag fiatal fejlesztők számára. Itt megtudhatod, hogyan igényelhetsz ingyenes hozzáférést a Hack Club tagjaként.",
+        "github-education-intro": "A GitHub Education egy erőforráscsomag fiatal fejlesztők számára. Itt megtudhatod, hogyan igényelhetsz ingyenes hozzáférést a Hack Club tagjaként.",
     }
 };
 

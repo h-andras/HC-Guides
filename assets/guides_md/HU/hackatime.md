@@ -1,5 +1,7 @@
 # Hackatime Beállítási Útmutató
 
+> **Fontos:** Először a **HC Auth** tutorialt csináld végig!.
+
 ## 1. lépés: Bejelentkezés
 
 1. Látogass el a [hackatime.hackclub.com](https://hackatime.hackclub.com) oldalra
@@ -7,7 +9,7 @@
 
 ![Bejelentkezési oldal](<../hackatime/onboard.png>)
 
-3. Kattints az **Engedélyezés** gombra a jogosultságok megadásához
+3. Kattints az **Engedélyezés** gombra a fiókkal való bejelentkezéshez.
 
 ![Engedélyezési oldal](<../hackatime/authorize.png>)
 
@@ -21,7 +23,7 @@
 
 ## 3. lépés: Szerkesztő Kiválasztása
 
-1. Miután a weboldal engedélyezi a továbblépést, menj a második beállítási lépéshez
+1. Miután a weboldal engedélyezi a továbblépést, menj tovább a második lépéshez
 2. Válaszd ki a szerkesztődet (ez az útmutató VS Code-ot használ példaként)
 
 ![Szerkesztő kiválasztása](<../hackatime/editor.png>)
@@ -46,7 +48,7 @@ Töltsd le a WakaTime bővítményt a kiválasztott szerkesztődhöz
 
 ![WakaTime bővítmény](<../hackatime/wakatime.png>)
 
-5. Kezdj el kódolni! Néhány perc elteltével egy időzítőt kell látnod megjelenni az alsó eszköztáron
+5. Kezdj el kódolni! Néhány perc elteltével egy időzítő kell megjelenjen az alsó eszközsávban.
 
 ## 5. lépés: Beállítás Befejezése
 
@@ -56,4 +58,4 @@ Töltsd le a WakaTime bővítményt a kiválasztott szerkesztődhöz
 
 ![Feltételek és szabályok](<../hackatime/terms.png>)
 
-**Gratulálunk!** Sikeresen beállítottad a Hackatime-ot és most már követheted a kódolási idődet.
+**Gratulálunk!** Sikeresen beállítottad a Hackatime-ot!
