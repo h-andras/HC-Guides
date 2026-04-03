@@ -31,8 +31,7 @@ body {
 }
 
 a {
-    text-decoration: underline;
-    color: #d1d5db;
+    text-decoration: none;
 }
 
 .lang-toggle-container {

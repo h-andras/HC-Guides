@@ -145,6 +145,11 @@ body {
     display: inline-block;
 }
 
+.content a {
+    color: #d1d5db;
+    text-decoration: underline;
+}
+
 .content h1::after {
     content: '';
     display: block;
