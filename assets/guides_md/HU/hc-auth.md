@@ -3,12 +3,12 @@
 ## 1. lépés: Fiók Létrehozása
 
 1. Látogass el az [auth.hackclub.com](https://auth.hackclub.com) oldalra
+
+> **Megjegyzés:** Olyan email címet használj, amelyhez hozzáférsz, mivel emailben fogsz kapni egy hitelesítési kódot.
 2. Írd be az email címedet
 3. Nyomd meg a **Continue** gombot
 
 ![Email cím megadása](/assets/guides_md/auth/onboard.png)
-
-> **Megjegyzés:** Olyan email címet használj, amelyhez hozzáférsz, mivel emailben fogsz kapni egy hitelesítési kódot.
 
 ## 2. lépés: Személyes Adatok
 

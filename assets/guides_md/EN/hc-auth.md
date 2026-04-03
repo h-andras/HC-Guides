@@ -3,11 +3,12 @@
 ## Step 1: Create Your Account
 
 1. Go to [auth.hackclub.com](https://auth.hackclub.com)
+
+> **Note:** Use an email you can access, as you'll receive an authentication code via email.
+
 2. Enter your email address in the textbox
 
 ![Email entry page](/assets/guides_md/auth/onboard.png)
-
-> **Note:** Use an email you can access, as you'll receive an authentication code via email.
 
 ## Step 2: Personal Information
 

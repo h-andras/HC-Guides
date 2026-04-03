@@ -2,6 +2,7 @@
 
 :root {
     --color-medium: #9e4747;
+    --color-link: #c3c3c3;
     --color-strong: #722020;
     --color-light: #f2dcdc;
     --text-color: #333;
@@ -30,8 +31,8 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: underline;
+    color: #d1d5db;
 }
 
 .lang-toggle-container {
