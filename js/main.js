@@ -155,6 +155,7 @@ async function handleRoute(path) {
 
         
         initApp();
+        updateSearchShortcut();
         if (typeof setLanguage === 'function') {
             setLanguage(localStorage.getItem('preferredLanguage') || 'hu');
         }
@@ -250,3 +251,33 @@ document.addEventListener('languageChanged', async (e) => {
         contentDiv.innerHTML = '<p>Error loading content.</p>';
     }
 });
+
+function updateSearchShortcut() {
+    const shortcutKeys = document.querySelectorAll('.search-shortcut');
+    if (shortcutKeys.length > 0) {
+        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || navigator.userAgent.includes('Mac');
+        const shortcutText = isMac ? '⌘ K' : 'Ctrl K';
+        shortcutKeys.forEach(key => {
+            key.textContent = shortcutText;
+        });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    updateSearchShortcut();
+});
+
+let searchGlobalListenerAdded = false;
+if (!searchGlobalListenerAdded) {
+    document.addEventListener('keydown', (e) => {
+        const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || navigator.userAgent.includes('Mac');
+        if ((isMac ? e.metaKey : e.ctrlKey) && e.key.toLowerCase() === 'k') {
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) {
+                e.preventDefault();
+                searchInput.focus();
+            }
+        }
+    });
+    searchGlobalListenerAdded = true;
+}

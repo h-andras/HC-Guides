@@ -125,6 +125,7 @@ body {
 
 
 .content {
+    position: relative;
     margin-left: var(--sidebar-width);
     padding: 4rem 5rem;
     background-color: #252429;
@@ -243,5 +244,80 @@ body {
 
     .content img {
         max-width: 80%;
+    }
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1c;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0 12px;
+    height: 40px;
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #9ca3af;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    cursor: text;
+}
+
+.search-bar-container:focus-within {
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.05);
+}
+
+.search-icon {
+    font-size: 14px;
+    margin-right: 12px;
+    color: #9ca3af;
+}
+
+#search-input {
+    flex-grow: 1;
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-size: 15px !important;
+    outline: none !important;
+    padding: 0;
+    box-shadow: none !important;
+    width: 100%;
+}
+
+#search-input::placeholder {
+    color: #6b7280;
+}
+
+.search-shortcut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-family: ui-monospace, SFPro-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: #9ca3af;
+    user-select: none;
+    margin-left: 12px;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .search-bar-container {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 2rem 0;
     }
 }
