@@ -11,7 +11,7 @@ const translations = {
         "website-title": "Üdvözlünk a Deák Téri Hack Club Útmutató Oldalán",
         "other-resources-title": "Egyéb Linkek",
         "other-resources-intro": "Kiváló eszközök, amelyek maximalizálják a fejlesztői produktivitásod.",
-        "hc-auth-intro": "Minden tagnak szöksége va egy HC Auth fiókra. Itt megtanulhatod a regisztráció menetét és a profil testreszabását.",
+        "hc-auth-intro": "Minden tagnak szöksége van egy HC Auth fiókra. Itt megtanulhatod a regisztráció menetét és a profil testreszabását.",
         "hackatime-intro": "A Hackatime majdnem minden YSWS alapja. Ebben a részben megtalálsz minden szükséges tudnivalót az extension használatához.",
         "github-education-intro": "A GitHub Education egy erőforráscsomag fiatal fejlesztők számára. Itt megtudhatod, hogyan igényelhetsz ingyenes hozzáférést a Hack Club tagjaként.",
     }
