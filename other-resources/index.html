@@ -41,9 +41,12 @@
         </nav>
         <main class="content">
             <div class="search-bar-container" onclick="document.getElementById('search-input').focus()">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
-                <kbd class="search-shortcut" id="search-shortcut-key">⌘ K</kbd>
+                <div class="search-input-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+                    <kbd class="search-shortcut" id="search-shortcut-key">⌘ K</kbd>
+                </div>
+                <div id="search-dropdown"></div>
             </div>
             <div id="markdown-content" class="markdown-body">
                 <!-- Markdown content will be rendered here -->
